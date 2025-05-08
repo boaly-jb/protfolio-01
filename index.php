@@ -1,82 +1,32 @@
-<!DOCTYPE html>
-<html lang="zxx">
+<?php
+include "./include/frontendHeader.php";
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Videograph Template">
-    <meta name="keywords" content="Videograph, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Videograph | Template</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
-
-<body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
-
-    <!-- Header Section Begin -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="header__nav__option">
-                        <nav class="header__nav__menu mobile-menu">
-                            <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./about.html">About</a></li>
-                                <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li><a href="./services.html">Services</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="./about.html">About</a></li>
-                                        <li><a href="./portfolio.html">Portfolio</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="./contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header__nav__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="mobile-menu-wrap"></div>
-        </div>
-    </header>
-    <!-- Header End -->
 
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="hero__slider owl-carousel">
-            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
+
+            <div class="hero__item set-bg" data-setbg="https://i.pinimg.com/736x/33/b3/68/33b3680358521d1883990d2eda9141c5.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="hero__text">
+                                <span>Your Vission Is My design </span>
+                                <h2>Boaly Kalamder Masum</h2>
+                                <a href="#" class="primary-btn">See more about us</a>
+                            </div>
+                        </div>
+                            <div class="col-lg-6">
+                                <div class="herrorImage">
+                                   <img class="img-fluid" style="height:100%;" src="https://i.pinimg.com/736x/69/0a/ba/690abacb92f2f1f92048539f17976e58.jpg" alt="">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -101,37 +51,25 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="hero__item set-bg" data-setbg="img/hero/hero-1.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="hero__text">
-                                <span>For website and video editing</span>
-                                <h2>Videographer’s Portfolio</h2>
-                                <a href="#" class="primary-btn">See more about us</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- Hero Section End -->
 
+
     <!-- Services Section Begin -->
-    <section class="services spad">
+    <section class="services  ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="services__title">
                         <div class="section-title">
-                            <span>Our services</span>
-                            <h2>What We do?</h2>
+                            <span>My services</span>
+                            <h2>What I do?</h2>
                         </div>
                         <p>If you hire a videographer of our team you will get a video professional to make a custom
                             video for your business and, once the project is over.</p>
-                        <a href="#" class="primary-btn">View all services</a>
+                        <a href="./services.php" class="primary-btn">View all services</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -139,11 +77,11 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="services__item">
                                 <div class="services__item__icon">
-                                    <img src="img/icons/si-1.png" alt="">
+                                <i class="bi bi-code-slash"></i>
+                                    <!-- <img src="img/icons/si-1.png" alt=""> -->
                                 </div>
-                                <h4>Motion graphics</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our
-                                    post production services can put the finishing touches.</p>
+                                <h4>Web Development</h4>
+                                <p>I build custom websites that are fast, mobile-friendly, and tailored to your needs. From simple landing pages to full-featured web apps, I use clean code and the latest technologies like HTML, CSS, JavaScript, php, Laravel</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -151,9 +89,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-2.png" alt="">
                                 </div>
-                                <h4>Scriptwriting and editing</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our
-                                    post production services can put the finishing touches.</p>
+                                <h4>Wordpress Development</h4>
+                                <p>I specialize in building dynamic and user-friendly WordPress websites that are easy for you to manage — no coding needed. Whether it’s a blog, business site, or online store, I deliver high-performance, secure, and mobile-ready WordPress solutions.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -161,9 +98,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-3.png" alt="">
                                 </div>
-                                <h4>Video distribution</h4>
-                                <p>Whether you’re halfway through the editing process, or you haven’t even started, our
-                                    post production services can put the finishing touches.</p>
+                                <h4>Web Design</h4>
+                                <p>I design modern, clean, and responsive websites that not only look great but also deliver a smooth user experience. My design process focuses on simplicity, clarity, and usability to help your brand stand out online.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -171,11 +107,11 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-4.png" alt="">
                                 </div>
-                                <h4>Video hosting</h4>
+                                <h4>File Convert to HTML </h4>
                                 <p>Whether you’re halfway through the editing process, or you haven’t even started, our
                                     post production services can put the finishing touches.</p>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -184,7 +120,7 @@
     <!-- Services Section End -->
 
     <!-- Work Section Begin -->
-    <section class="work">
+    <!-- <section class="work">
         <div class="work__gallery">
             <div class="grid-sizer"></div>
             <div class="work__item wide__item set-bg" data-setbg="img/work/work-1.jpg">
@@ -237,11 +173,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Work Section End -->
 
     <!-- Counter Section Begin -->
-    <section class="counter">
+    <!-- <section class="counter">
         <div class="container">
             <div class="counter__content">
                 <div class="row">
@@ -284,11 +220,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Counter Section End -->
 
     <!-- Team Section Begin -->
-    <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
+    <!-- <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -362,7 +298,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Team Section End -->
 
     <!-- Latest Blog Section Begin -->
@@ -484,99 +420,7 @@
     </section>
     <!-- Call To Action Section End -->
 
-    <!-- Footer Section Begin -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__option">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__option__item">
-                            <h5>About us</h5>
-                            <p>Formed in 2006 by Matt Hobbs and Cael Jones, Videoprah is an award-winning, full-service
-                                production company specializing.</p>
-                            <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>Who we are</h5>
-                            <ul>
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Carrers</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Locations</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>Our work</h5>
-                            <ul>
-                                <li><a href="#">Feature</a></li>
-                                <li><a href="#">Latest</a></li>
-                                <li><a href="#">Browse Archive</a></li>
-                                <li><a href="#">Video for web</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="footer__option__item">
-                            <h5>Newsletter</h5>
-                            <p>Videoprah is an award-winning, full-service production company specializing.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Email">
-                                <button type="submit"><i class="fa fa-send"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copyright">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        </p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+    <?php
+        include "./include/frontendFooter.php";
+    ?>

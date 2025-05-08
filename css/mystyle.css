@@ -1,0 +1,31 @@
+
+:root {
+    --black: #000000;
+    --orange: #f1660f;
+}
+
+/****************************** services style is start from here  *************888888*/
+.services {
+    background:#000000;
+}
+.services__item__icon:after {
+    border-color:var(--orange) ;
+}
+
+.section-title h2:after {
+    background: var(--orange);
+}
+.primary-btn::before {
+    border-top:2px solid var(--orange);
+    border-left: 2px solid var(--orange);
+}
+.primary-btn:after {
+    border-right:2px solid var(--orange);
+    border-bottom: 2px solid var(--orange);
+}
+/****************************** services style is END from here  *************888888*/
+
+
+i {
+    color:white;
+}
